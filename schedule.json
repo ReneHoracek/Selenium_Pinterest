@@ -1,0 +1,44 @@
+[
+  {
+    "nazev": "Test video 1 - Daně",
+    "nastepka": "Daňové poradenství",
+    "barva_satu": "Modrá",
+    "scheduled_time": "2026-04-27T07:30:00.893019",
+    "status": "scheduled"
+  },
+  {
+    "nazev": "Test video 2 - Podnikání",
+    "nastepka": "Podnikání online",
+    "barva_satu": "Červená",
+    "scheduled_time": "2026-04-27T12:30:00.893019",
+    "status": "scheduled"
+  },
+  {
+    "nazev": "Test video 3 - Účetnictví",
+    "nastepka": "Účetnictví online",
+    "barva_satu": "Zelená",
+    "scheduled_time": "2026-04-27T19:30:00.893019",
+    "status": "scheduled"
+  },
+  {
+    "nazev": "Test video 5 - Kurzy",
+    "nastepka": "podnikání online",
+    "barva_satu": "Žlutá",
+    "scheduled_time": "2026-04-28T07:30:00.893019",
+    "status": "scheduled"
+  },
+  {
+    "nazev": "Test video 6 - Financování",
+    "nastepka": "Podnikání online",
+    "barva_satu": "Fialová",
+    "scheduled_time": "2026-04-28T12:30:00.893019",
+    "status": "scheduled"
+  },
+  {
+    "nazev": "Test video 4 - Rady",
+    "nastepka": "Daňové poradenství",
+    "barva_satu": "Modrá",
+    "scheduled_time": "2026-04-28T19:30:00.893019",
+    "status": "scheduled"
+  }
+]

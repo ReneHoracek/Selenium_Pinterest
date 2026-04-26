@@ -1,0 +1,233 @@
+2026-04-26 21:03:20,174 - INFO - ============================================================
+2026-04-26 21:03:20,174 - INFO - Pinterest Pin Automation System
+2026-04-26 21:03:20,174 - INFO - ============================================================
+2026-04-26 21:03:20,174 - INFO - 
+📋 VALIDACE DAT...
+2026-04-26 21:03:20,175 - INFO - Soubor načten (CSV): 6 řádků
+2026-04-26 21:03:20,176 - INFO - Dostupné sloupce po vyčištění: ['video_cesta', 'nazev', 'odkaz', 'nastepka', 'tagy', 'barva_satu']
+2026-04-26 21:03:20,177 - INFO - Zpráva o validaci uložena: validation_report.txt
+2026-04-26 21:03:20,178 - INFO - 
+📅 OPTIMALIZACE PLÁNU PUBLIKOVÁNÍ...
+2026-04-26 21:03:20,178 - INFO - Plán uložen: schedule.json
+2026-04-26 21:03:20,178 - INFO - ✅ Plán vytvořen pro 6 pinů
+2026-04-26 21:03:20,178 - INFO - 
+🚀 SPOUŠTĚNÍ TVORBY PINŮ...
+2026-04-26 21:06:12,272 - WARNING - The chromedriver version (147.0.7727.101) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-26 21:06:12,646 - INFO - Prohlížeč inicializován
+2026-04-26 21:06:16,350 - INFO - Přejděte na Pinterest a přihlaste se
+2026-04-26 21:06:16,351 - INFO - Až budete na mainbordu, vložte do terminálu: done
+2026-04-26 21:07:45,278 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/7aaec424314a84690163d0233cca9ea5
+2026-04-26 21:07:45,281 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54251): Failed to establish a new connection: [Errno 111] Connection refused")': /session/7aaec424314a84690163d0233cca9ea5
+2026-04-26 21:07:45,282 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=54251): Failed to establish a new connection: [Errno 111] Connection refused")': /session/7aaec424314a84690163d0233cca9ea5
+2026-04-26 21:07:45,285 - INFO - Prohlížeč uzavřen
+2026-04-26 21:07:48,071 - INFO - ============================================================
+2026-04-26 21:07:48,072 - INFO - Pinterest Pin Automation System
+2026-04-26 21:07:48,072 - INFO - ============================================================
+2026-04-26 21:07:48,072 - INFO - 
+📋 VALIDACE DAT...
+2026-04-26 21:07:48,073 - INFO - Soubor načten (CSV): 6 řádků
+2026-04-26 21:07:48,073 - INFO - Dostupné sloupce po vyčištění: ['video_cesta', 'nazev', 'odkaz', 'nastepka', 'tagy', 'barva_satu']
+2026-04-26 21:07:48,075 - INFO - Zpráva o validaci uložena: validation_report.txt
+2026-04-26 21:07:48,075 - INFO - 
+📅 OPTIMALIZACE PLÁNU PUBLIKOVÁNÍ...
+2026-04-26 21:07:48,075 - INFO - Plán uložen: schedule.json
+2026-04-26 21:07:48,076 - INFO - ✅ Plán vytvořen pro 6 pinů
+2026-04-26 21:07:48,076 - INFO - 
+🚀 SPOUŠTĚNÍ TVORBY PINŮ...
+2026-04-26 21:07:48,088 - WARNING - The chromedriver version (147.0.7727.101) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-26 21:07:48,463 - INFO - Prohlížeč inicializován
+2026-04-26 21:07:57,318 - INFO - Přejděte na Pinterest a přihlaste se
+2026-04-26 21:07:57,318 - INFO - Až budete na mainbordu, vložte do terminálu: done
+2026-04-26 21:12:35,138 - INFO - 
+📌 Pin 1/6
+2026-04-26 21:12:39,854 - INFO - Vytvářím pin: Test video 1 - Daně
+2026-04-26 21:12:39,854 - INFO -   → Nahrávám video...
+2026-04-26 21:12:44,994 - INFO -   → Vyplňuji nadpis...
+2026-04-26 21:12:45,038 - ERROR - ❌ Chyba při vytváření pinu: Message: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=148.0.7778.56)
+Stacktrace:
+#0 0x561421e85f9e <unknown>
+#1 0x5614218268a6 <unknown>
+#2 0x56142182df14 <unknown>
+#3 0x56142183049c <unknown>
+#4 0x5614218305b1 <unknown>
+#5 0x561421872489 <unknown>
+#6 0x5614218a1d82 <unknown>
+#7 0x56142186e98d <unknown>
+#8 0x5614218a20fe <unknown>
+#9 0x5614218c5659 <unknown>
+#10 0x5614218a1b43 <unknown>
+#11 0x56142186cfb7 <unknown>
+#12 0x56142186dcf1 <unknown>
+#13 0x561421e4c4e1 <unknown>
+#14 0x561421e4f87f <unknown>
+#15 0x561421e4f2da <unknown>
+#16 0x561421e4fd05 <unknown>
+#17 0x561421e3bf58 <unknown>
+#18 0x561421e500c7 <unknown>
+#19 0x561421e242eb <unknown>
+#20 0x561421e71e05 <unknown>
+#21 0x561421e72063 <unknown>
+#22 0x561421e84b1e <unknown>
+#23 0x7f9621c59464 start_thread
+#24 0x7f9621cdc5ec __clone3
+
+2026-04-26 21:12:48,038 - INFO - 
+📌 Pin 2/6
+2026-04-26 21:12:49,760 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/4d4a89caacf2ee9e4a31b31b83f76a4f
+2026-04-26 21:12:49,761 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=36163): Failed to establish a new connection: [Errno 111] Connection refused")': /session/4d4a89caacf2ee9e4a31b31b83f76a4f
+2026-04-26 21:12:49,761 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=36163): Failed to establish a new connection: [Errno 111] Connection refused")': /session/4d4a89caacf2ee9e4a31b31b83f76a4f
+2026-04-26 21:12:49,762 - INFO - Prohlížeč uzavřen
+2026-04-26 21:13:53,105 - INFO - ============================================================
+2026-04-26 21:13:53,105 - INFO - Pinterest Pin Automation System
+2026-04-26 21:13:53,105 - INFO - ============================================================
+2026-04-26 21:13:53,105 - INFO - 
+📋 VALIDACE DAT...
+2026-04-26 21:13:53,106 - INFO - Soubor načten (CSV): 6 řádků
+2026-04-26 21:13:53,107 - INFO - Dostupné sloupce po vyčištění: ['video_cesta', 'nazev', 'odkaz', 'nastepka', 'tagy', 'barva_satu']
+2026-04-26 21:13:53,108 - INFO - Zpráva o validaci uložena: validation_report.txt
+2026-04-26 21:13:53,108 - INFO - 
+📅 OPTIMALIZACE PLÁNU PUBLIKOVÁNÍ...
+2026-04-26 21:13:53,108 - INFO - Plán uložen: schedule.json
+2026-04-26 21:13:53,108 - INFO - ✅ Plán vytvořen pro 6 pinů
+2026-04-26 21:13:53,109 - INFO - 
+🚀 SPOUŠTĚNÍ TVORBY PINŮ...
+2026-04-26 21:13:53,120 - WARNING - The chromedriver version (147.0.7727.101) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-26 21:13:53,463 - INFO - Prohlížeč inicializován
+2026-04-26 21:13:57,234 - INFO - Přejděte na Pinterest a přihlaste se
+2026-04-26 21:13:57,234 - INFO - Až budete na mainbordu, vložte do terminálu: done
+2026-04-26 21:14:20,867 - INFO - 
+📌 Pin 1/6
+2026-04-26 21:14:24,410 - INFO - Vytvářím pin: Test video 1 - Daně
+2026-04-26 21:14:24,410 - INFO -   → Nahrávám video...
+2026-04-26 21:14:29,454 - INFO -   → Vyplňuji nadpis...
+2026-04-26 21:14:31,640 - INFO -   → Vyplňuji odkaz...
+2026-04-26 21:14:33,818 - INFO -   → Vybírám nástěnku: Daňové-poradenství
+2026-04-26 21:14:51,223 - ERROR - ❌ Chyba při vytváření pinu: Message: 
+Stacktrace:
+#0 0x55bdfba15f9e <unknown>
+#1 0x55bdfb3b68a6 <unknown>
+#2 0x55bdfb409565 <unknown>
+#3 0x55bdfb409991 <unknown>
+#4 0x55bdfb457d34 <unknown>
+#5 0x55bdfb431dad <unknown>
+#6 0x55bdfb455659 <unknown>
+#7 0x55bdfb431b43 <unknown>
+#8 0x55bdfb3fcfb7 <unknown>
+#9 0x55bdfb3fdcf1 <unknown>
+#10 0x55bdfb9dc4e1 <unknown>
+#11 0x55bdfb9df87f <unknown>
+#12 0x55bdfb9df2da <unknown>
+#13 0x55bdfb9dfd05 <unknown>
+#14 0x55bdfb9cbf58 <unknown>
+#15 0x55bdfb9e00c7 <unknown>
+#16 0x55bdfb9b42eb <unknown>
+#17 0x55bdfba01e05 <unknown>
+#18 0x55bdfba02063 <unknown>
+#19 0x55bdfba14b1e <unknown>
+#20 0x7fbb1b883464 start_thread
+#21 0x7fbb1b9065ec __clone3
+
+2026-04-26 21:14:54,223 - INFO - 
+📌 Pin 2/6
+2026-04-26 21:14:57,706 - INFO - Vytvářím pin: Test video 2 - Podnikání
+2026-04-26 21:14:57,707 - INFO -   → Nahrávám video...
+2026-04-26 21:15:02,836 - INFO -   → Vyplňuji nadpis...
+2026-04-26 21:15:05,086 - INFO -   → Vyplňuji odkaz...
+2026-04-26 21:15:07,424 - INFO -   → Vybírám nástěnku: Podnikání-online
+2026-04-26 21:15:13,910 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/479435ac3183c9f4a283c91894bac21a
+2026-04-26 21:15:13,913 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=46623): Failed to establish a new connection: [Errno 111] Connection refused")': /session/479435ac3183c9f4a283c91894bac21a
+2026-04-26 21:15:13,915 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=46623): Failed to establish a new connection: [Errno 111] Connection refused")': /session/479435ac3183c9f4a283c91894bac21a
+2026-04-26 21:15:13,916 - INFO - Prohlížeč uzavřen
+2026-04-26 21:20:35,098 - INFO - ============================================================
+2026-04-26 21:20:35,098 - INFO - Pinterest Pin Automation System
+2026-04-26 21:20:35,098 - INFO - ============================================================
+2026-04-26 21:20:35,098 - INFO - 
+📋 VALIDACE DAT...
+2026-04-26 21:20:35,099 - INFO - Soubor načten (CSV): 6 řádků
+2026-04-26 21:20:35,100 - INFO - Dostupné sloupce po vyčištění: ['video_cesta', 'nazev', 'odkaz', 'nastepka', 'tagy', 'barva_satu']
+2026-04-26 21:20:35,101 - INFO - Zpráva o validaci uložena: validation_report.txt
+2026-04-26 21:20:35,102 - INFO - 
+📅 OPTIMALIZACE PLÁNU PUBLIKOVÁNÍ...
+2026-04-26 21:20:35,102 - INFO - Plán uložen: schedule.json
+2026-04-26 21:20:35,102 - INFO - ✅ Plán vytvořen pro 6 pinů
+2026-04-26 21:20:35,102 - INFO - 
+🚀 SPOUŠTĚNÍ TVORBY PINŮ...
+2026-04-26 21:20:35,113 - WARNING - The chromedriver version (147.0.7727.101) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-26 21:20:35,445 - INFO - Prohlížeč inicializován
+2026-04-26 21:20:39,310 - INFO - Přejděte na Pinterest a přihlaste se
+2026-04-26 21:20:39,310 - INFO - Až budete na mainbordu, vložte do terminálu: done
+2026-04-26 21:21:00,710 - INFO - 
+📌 Pin 1/6
+2026-04-26 21:21:04,268 - INFO - Vytvářím pin: Test video 1 - Daně
+2026-04-26 21:21:04,268 - INFO -   → Nahrávám video...
+2026-04-26 21:21:09,380 - INFO -   → Vyplňuji nadpis...
+2026-04-26 21:21:11,613 - INFO -   → Vyplňuji odkaz...
+2026-04-26 21:21:13,811 - INFO -   → Vybírám nástěnku: Daňové poradenství
+2026-04-26 21:21:23,961 - INFO -   → Přidávám tagy...
+2026-04-26 21:21:23,970 - WARNING -   ⚠️ Nepodařilo se přidat tag: účetnictví; daně; vzdělávání
+2026-04-26 21:21:23,970 - INFO -   → Plánuji na: 2026-04-27T07:30:00.102212
+2026-04-26 21:21:23,979 - INFO -   ℹ️ Plánování není dostupné, publikuji nyní
+2026-04-26 21:21:23,979 - INFO -   → Publikuji pin...
+2026-04-26 21:21:29,051 - INFO - ✅ Pin úspěšně vytvořen: Test video 1 - Daně
+2026-04-26 21:21:32,051 - INFO - 
+📌 Pin 2/6
+2026-04-26 21:21:35,515 - INFO - Vytvářím pin: Test video 2 - Podnikání
+2026-04-26 21:21:35,515 - INFO -   → Nahrávám video...
+2026-04-26 21:21:40,546 - INFO -   → Vyplňuji nadpis...
+2026-04-26 21:21:42,841 - INFO -   → Vyplňuji odkaz...
+2026-04-26 21:21:45,197 - INFO -   → Vybírám nástěnku: Podnikání online
+2026-04-26 21:21:55,348 - INFO -   → Přidávám tagy...
+2026-04-26 21:21:55,377 - WARNING -   ⚠️ Nepodařilo se přidat tag: účetnictví; podnikání; vzdělávání
+2026-04-26 21:21:55,377 - INFO -   → Plánuji na: 2026-04-27T12:30:00.102212
+2026-04-26 21:21:55,385 - INFO -   ℹ️ Plánování není dostupné, publikuji nyní
+2026-04-26 21:21:55,385 - INFO -   → Publikuji pin...
+2026-04-26 21:22:00,452 - INFO - ✅ Pin úspěšně vytvořen: Test video 2 - Podnikání
+2026-04-26 21:22:03,453 - INFO - 
+📌 Pin 3/6
+2026-04-26 21:22:06,891 - INFO - Vytvářím pin: Test video 3 - Účetnictví
+2026-04-26 21:22:06,892 - INFO -   → Nahrávám video...
+2026-04-26 21:22:11,928 - INFO -   → Vyplňuji nadpis...
+2026-04-26 21:22:14,252 - INFO -   → Vyplňuji odkaz...
+2026-04-26 21:22:16,618 - INFO -   → Vybírám nástěnku: Účetnictví online
+2026-04-26 21:22:22,147 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/4eb77342d0f15251eee4da7771b2f0e3
+2026-04-26 21:22:22,150 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39175): Failed to establish a new connection: [Errno 111] Connection refused")': /session/4eb77342d0f15251eee4da7771b2f0e3
+2026-04-26 21:22:22,152 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=39175): Failed to establish a new connection: [Errno 111] Connection refused")': /session/4eb77342d0f15251eee4da7771b2f0e3
+2026-04-26 21:22:22,153 - INFO - Prohlížeč uzavřen
+2026-04-26 21:23:51,889 - INFO - ============================================================
+2026-04-26 21:23:51,889 - INFO - Pinterest Pin Automation System
+2026-04-26 21:23:51,889 - INFO - ============================================================
+2026-04-26 21:23:51,889 - INFO - 
+📋 VALIDACE DAT...
+2026-04-26 21:23:51,890 - INFO - Soubor načten (CSV): 6 řádků
+2026-04-26 21:23:51,891 - INFO - Dostupné sloupce po vyčištění: ['video_cesta', 'nazev', 'odkaz', 'nastepka', 'tagy', 'barva_satu']
+2026-04-26 21:23:51,892 - INFO - Zpráva o validaci uložena: validation_report.txt
+2026-04-26 21:23:51,892 - INFO - 
+📅 OPTIMALIZACE PLÁNU PUBLIKOVÁNÍ...
+2026-04-26 21:23:51,893 - INFO - Plán uložen: schedule.json
+2026-04-26 21:23:51,893 - INFO - ✅ Plán vytvořen pro 6 pinů
+2026-04-26 21:23:51,893 - INFO - 
+🚀 SPOUŠTĚNÍ TVORBY PINŮ...
+2026-04-26 21:23:51,904 - WARNING - The chromedriver version (147.0.7727.101) detected in PATH at /usr/bin/chromedriver might not be compatible with the detected chrome version (148.0.7778.56); currently, chromedriver 148.0.7778.56 is recommended for chrome 148.*, so it is advised to delete the driver in PATH and retry
+2026-04-26 21:23:52,259 - INFO - Prohlížeč inicializován
+2026-04-26 21:23:56,785 - INFO - Přejděte na Pinterest a přihlaste se
+2026-04-26 21:23:56,785 - INFO - Až budete na mainbordu, vložte do terminálu: done
+2026-04-26 21:24:19,210 - INFO - 
+📌 Pin 1/6
+2026-04-26 21:24:24,565 - INFO - Vytvářím pin: Test video 1 - Daně
+2026-04-26 21:24:24,566 - INFO -   → Nahrávám video...
+2026-04-26 21:24:29,699 - INFO -   → Vyplňuji nadpis...
+2026-04-26 21:24:31,948 - INFO -   → Vyplňuji odkaz...
+2026-04-26 21:24:34,173 - INFO -   → Vybírám nástěnku: Daňové poradenství
+2026-04-26 21:24:44,402 - INFO -   → Přidávám tagy...
+2026-04-26 21:24:44,433 - WARNING -   ⚠️ Pole pro tagy nenalezeno
+2026-04-26 21:24:44,449 - WARNING -   ⚠️ Pole pro tagy nenalezeno
+2026-04-26 21:24:44,466 - WARNING -   ⚠️ Pole pro tagy nenalezeno
+2026-04-26 21:24:44,466 - INFO -   → Plánuji na: 2026-04-27T07:30:00.893019
+2026-04-26 21:24:44,476 - INFO -   ℹ️ Plánování není dostupné, publikuji nyní
+2026-04-26 21:24:44,476 - INFO -   → Publikuji pin...
+2026-04-26 21:24:49,553 - INFO - ✅ Pin úspěšně vytvořen: Test video 1 - Daně
+2026-04-26 21:24:51,390 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/0116f15e6b93b3eb3182465f370edfc1
+2026-04-26 21:24:51,392 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=45131): Failed to establish a new connection: [Errno 111] Connection refused")': /session/0116f15e6b93b3eb3182465f370edfc1
+2026-04-26 21:24:51,392 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=45131): Failed to establish a new connection: [Errno 111] Connection refused")': /session/0116f15e6b93b3eb3182465f370edfc1
+2026-04-26 21:24:51,393 - INFO - Prohlížeč uzavřen
