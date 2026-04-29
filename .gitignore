@@ -1,0 +1,294 @@
+################################################################################
+# Pinterest Smart Automation - .gitignore
+# 
+# Soubory/složky které se NEBUDOU commitit na GitHub
+# (zůstanou jen lokálně na tvém počítači)
+################################################################################
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🐍 PYTHON & PIP
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python distribution
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 📦 VIRTUAL ENVIRONMENTS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+venv/
+ENV/
+env/
+.venv
+.env.venv
+env.bak/
+venv.bak/
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🖥️  IDE & EDITOR SOUBORY
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# VS Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Atom
+.atom/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.AppleDB
+.AppleDesktop
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🎬 PINTEREST AUTOMATION - PROJECT SPECIFIC
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# Log soubory
+pinterest_smart.log
+pinterest.log
+*.log
+
+# Excel soubory (metadata - ulož si lokálně!)
+*.xlsx
+*.xls
+Pinterest_Data_Smart.xlsx
+Pinterest_Data_Ready.xlsx
+Data.xlsx
+
+# CSV soubory (exportované z Excel)
+Data.csv
+*.csv
+
+# ChromeDriver (binární soubor pro Selenium)
+chromedriver
+chromedriver.exe
+chromedriver.mac
+chromedriver.linux
+
+# Video soubory (dočasně nahrávané)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+*.wmv
+*.m4v
+*.3gp
+
+# Temp/Cache
+temp/
+tmp/
+cache/
+.cache/
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🔐 SECRETS & CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.*.php
+
+# API keys, passwords atd.
+secrets.py
+config.local.py
+settings.local.py
+local_settings.py
+
+# AWS / Cloud credentials
+.aws/
+.aws/*
+awscreds.txt
+
+# SSH keys
+*.pem
+*.key
+*.pub
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🧪 TESTING & COVERAGE
+# ═══════════════════════════════════════════════════════════════════════════════
+
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+htmlcov/
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🛠️  BUILD & DEPLOYMENT
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+
+# Docker
+.dockerignore
+
+# Package managers
+poetry.lock
+Pipfile.lock
+
+# Distribution
+*.whl
+*.tar.gz
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🖨️  OS SPECIFIC FILES
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+
+# macOS (duplicated but important)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 📁 ВРЕМЕННЫЕ ФАЙЛЫ
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# Temp directories
+/temp
+/tmp
+/build
+/dist
+/site
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*~
+
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# 📊 OPTIONAL - PRO BUDOUCÍ ROZŠÍŘENÍ
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# Database soubory (když budeme přidávat DB)
+*.db
+*.sqlite
+*.sqlite3
+
+# PDF reports
+reports/*.pdf
+
+# Jupyter Notebooks (pokud budeme používat)
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+
+################################################################################
+# WHITELIST - Některé soubory JSOU důležité a nesmějí se ignorovat!
+#
+# Pokud máš soubor který normálně ignorujeme ale potřebuješ ho pushit,
+# můžeš to udělat tímto způsobem:
+#
+#   git add -f important_file.xlsx
+#   git commit -m "Add important file"
+#   git push origin main
+#
+# Nebo zaměň řádek v gitignore na:
+#   !important_file.xlsx
+################################################################################
+
+# Příklady whitelist (odkomentuj pokud potřebuješ):
+# !.env.example
+# !.vscode/settings.json
+# !requirements-dev.txt
+
